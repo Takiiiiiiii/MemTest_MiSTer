@@ -197,7 +197,7 @@ wire  [1:0] buttons;
 `include "build_id.v" 
 localparam CONF_STR = 
 {
-	"MEMTEST TEST;;",
+	"MEMTEST;;",
 	"J1, Reset Freq, Reset Test, Switch IC;",
     "jn, A, Start, B;",
     "jp, B, Start, A;",
